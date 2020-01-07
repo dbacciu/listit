@@ -17,16 +17,21 @@ LISTIT has built a range of learning models targeting
 LISTIT methodology is based on a generative approach, mixing both probabilistic and neural (deep) learning models. Here follows a summary of models developed and released within the project, together with associated code (when available). Technical details about the different models can be found in the project bibliography in the dedicated section.
 
 ### Probabilistic recursive models for trees 
+- Input-Output Bottom-up Hidden Tree Markov Model (IO-BHTMM) - A model learning a distribution over tree couples that serves to address isomorphic tree transduction problems, implemented throughout a generative process acting from the leaves to the root of the trees ([code](https://github.com/diningphil/IOBHTMM))
 
 ### Recursive neural models for trees 
-
-### Neuro-probabilistic hybrids
 
 ### Tensor-based models for trees 
 
 ### Probabilistic models for graphs
 
+- Contextual Graph Markov Model (CGMM) - Probabilistic approach to learning contexts in graphs, combining information diffusion and local computation through the use of a deep architecture and stationarity assumptions ([code](https://github.com/diningphil/CGMM)).  
+
 ### Graph generation models
+
+### Other models and contributions
+- Hidden Tree Markov Network (HTN) - A neuro-probabilistic hybrid model for tree structured data processing combining heterogeneous probabilistic tree models within a neural architecture, trained by backpropagation ([code](https://github.com/vdecaro/Hidden-Tree-Markov-Network)). 
+- Fair Graph Classification - A benchmarking suite to support fair assessment of learning models for graphs in classification tasks ([code](https://github.com/diningphil/gnn-comparison)). 
 
 ## Project Contributors and Collaborators
 
