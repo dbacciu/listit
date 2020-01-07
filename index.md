@@ -30,6 +30,12 @@ LISTIT methodology is based on a generative approach, mixing both probabilistic 
 
 ## Project Contributors and Collaborators
 
+## The LISTIT Toolkit library
+
+The tree-to-tree transduction framework at the core of the LISTIT project is available as a PYTORCH library, integrating various probabilistic and neural tree encoders and tree sampling models (decoders). The library is released and maintaned [here](url).
+
+An efficient Tensorflow implementation of the Tree2Tree Conditional Variational Autoencoder (T2TVAE) has also been realized for enhanced computational efficiency, to deal with larger scale learning tasks (including Machine Translation and Image Captioning). The T2TVAE model implementation is released and maintaned [here](https://github.com/m-colombo/conditional-variational-tree-autoencoder). A version of the T2TVAE for image captioning applications is released [here](url), together with [code](url) to generate tree-structured representations of visual content leveraging the PBM segmentation framework.  
+
 ## Project Publications
 All project publications are freely accessible either as open access (when available, on the publisher site) or as pre-print. The list is under continuous update.
 
