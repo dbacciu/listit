@@ -23,6 +23,7 @@ LISTIT methodology is based on a generative approach, mixing both probabilistic 
 -  Tree2Tree Conditional Variational Autoencoder (T2TVAE) - T2TVAE is a Conditional Variational Autoencoder that can learn a generative process realizing non-isomorph tree transductions, by extending the VAE framework to allow conditioning the generative process on tree-structured inputs and to generate tree-structured predictions ([code](https://github.com/m-colombo/conditional-variational-tree-autoencoder)).
 
 ### Tensor-based models for trees 
+- Tensor Tree Recursive Neural Network (TTRNN) - A general framework extending Recursive Neural Networks for tree embedding with more expressive context aggregation functions leveraging tensor decompositions ([code](https://github.com/danielecastellana22/tensor-tree-nn)).
 
 ### Probabilistic models for graphs
 
