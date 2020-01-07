@@ -11,8 +11,8 @@ LISTIT applications target natural language processing, image captioning, biomed
 ## Models and Methodologies
 
 LISTIT has built a range of learning models targeting
-- **Structure embedding** : encoding of topology-varying input samples (trees, graphs) into fixed-size adaptive vectorial embeddings
-- **Structure decoding** : generation of topology-varying structured predictions (trees, graphs), possibly conditioned on vectorial encodings of input structure
+- **Structure embedding** : encoding of topology-varying input samples (trees, graphs) into fixed-size adaptive vectorial embeddings.
+- **Structure decoding** : generation of topology-varying structured predictions (trees, graphs), possibly conditioned on vectorial encodings of input structures.
 
 LISTIT methodology is based on a generative approach, mixing both probabilistic and neural (deep) learning models. Here follows a summary of models developed and released within the project, together with associated code (when available). Technical details about the different models can be found in the project bibliography in the dedicated section.
 
@@ -20,6 +20,7 @@ LISTIT methodology is based on a generative approach, mixing both probabilistic 
 - Input-Output Bottom-up Hidden Tree Markov Model (IO-BHTMM) - A model learning a distribution over tree couples that serves to address isomorphic tree transduction problems, implemented throughout a generative process acting from the leaves to the root of the trees ([code](https://github.com/diningphil/IOBHTMM))
 
 ### Recursive neural models for trees 
+-  Tree2Tree Conditional Variational Autoencoder (T2TVAE) - T2TVAE is a Conditional Variational Autoencoder that can learn a generative process realizing non-isomorph tree transductions, by extending the VAE framework to allow conditioning the generative process on tree-structured inputs and to generate tree-structured predictions ([code](https://github.com/m-colombo/conditional-variational-tree-autoencoder)).
 
 ### Tensor-based models for trees 
 
