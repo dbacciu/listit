@@ -35,7 +35,7 @@ All project publications are freely accessible either as open access (when avail
 
 ### Under review and in preparation
 -	Davide Bacciu; Federico Errica; Alessio Micheli, Probabilistic Learning on Graphs via Contextual Architectures, Journal paper under review
-- Davide Bacciu; Federico Errica; Alessio Micheli; Marco Podda; A Gentle Introduction to Deep Learning for Graphs,Journal paper under review (pdf)
+- Davide Bacciu; Federico Errica; Alessio Micheli; Marco Podda; A Gentle Introduction to Deep Learning for Graphs, Journal paper under review (pdf)
 - Andrea Valenti; Antonio Carta; Davide Bacciu; Learning a Latent Space of Style-Aware Music Representations by Adversarial Autoencoders, Submitted to conference, 2020
 - Davide Bacciu; Daniele Castellana, Generalising Recursive Neural Models by Tensor Decomposition, Submitted to conference, 2020
 - Davide Bacciu; Alessio Conte; Roberto Grossi; Francesco Landolfi; Andrea Marino, K-plex Pooling for Graph Neural Networks, Submitted to conference, 2020
@@ -73,3 +73,7 @@ All project publications are freely accessible either as open access (when avail
 -	Davide Bacciu; Francesco Crecchi; Davide Morelli, DropIn: Making reservoir computing neural networks robust to missing inputs by dropout. Proceedings of the 2017 International Joint Conference on Neural Networks. p. 2080-2087, IEEE, 2017
 
 ## Contact Info
+
+For further information about the project please contact the PI [Davide Bacciu](http://www.di.unipi.it/~bacciu/).
+
+For aspects related to code and software, please use the contact information provided for the single repositories. 
