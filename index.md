@@ -28,4 +28,8 @@ LISTIT methodology is based on a generative approach, mixing both probabilistic 
 
 ### Graph generation models
 
+## Project Contributors and Collaborators
 
+## Project Publications
+
+## Contact Info
