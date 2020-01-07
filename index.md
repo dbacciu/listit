@@ -1,4 +1,4 @@
-# LISTIT Project Homepage 
+# LISTIT Homepage 
 
 LISTIT (Learning non-Isomorph Structured Transductions for Image and Text fragments) is a 4-years research project funded by the Italian Ministry of Education and Research, under the SIR framework (contract n.  RBSI14STDE). This is the official repository of the project referencing software libraries and code developed within the project and the associated pubblications. 
 
@@ -13,3 +13,19 @@ LISTIT applications target natural language processing, image captioning, biomed
 LISTIT has built a range of learning models targeting
 - **Structure embedding** : encoding of topology-varying input samples (trees, graphs) into fixed-size adaptive vectorial embeddings
 - **Structure decoding** : generation of topology-varying structured predictions (trees, graphs), possibly conditioned on vectorial encodings of input structure
+
+LISTIT methodology is based on a generative approach, mixing both probabilistic and neural (deep) learning models. Here follows a summary of models developed and released within the project, together with associated code (when available).
+
+### Probabilistic recursive models for trees 
+
+### Recursive neural models for trees 
+
+### Neuro-probabilistic hybrids
+
+### Tensor-based models for trees 
+
+### Probabilistic models for graphs
+
+### Graph generation models
+
+
