@@ -18,15 +18,16 @@ LISTIT methodology is based on a generative approach, mixing both probabilistic 
 
 ### Probabilistic recursive models for trees 
 - Input-Output Bottom-up Hidden Tree Markov Model (IO-BHTMM) - A model learning a distribution over tree couples that serves to address isomorphic tree transduction problems, implemented throughout a generative process acting from the leaves to the root of the trees ([code](https://github.com/diningphil/IOBHTMM))
+- Bayesian Mixture of Bottom-up Hidden Tree Markov Models (INF-BHTMM) - A non-parametric generative model extending the IO-BHTMM to deal with a mixture of potentially infinite probabilistic tree encoders ([code](https://gitlab.itc.unipi.it/d.castellana/Mixtures_SP_BHTMM)). 
 
 ### Recursive neural models for trees 
 -  Tree2Tree Conditional Variational Autoencoder (T2TVAE) - T2TVAE is a Conditional Variational Autoencoder that can learn a generative process realizing non-isomorph tree transductions, by extending the VAE framework to allow conditioning the generative process on tree-structured inputs and to generate tree-structured predictions ([code](https://github.com/m-colombo/conditional-variational-tree-autoencoder)).
 
 ### Tensor-based models for trees 
+- Bayesian Tensor Factorisation Bottom-up Hidden Tree Markov Models (TF-BHTMM) - An tensor-based extension of the bottom-up hidden Markov model for the encoding of tree-structured data, allowing scalable higher-order state transition functions within a fully Bayesian framework ([code](https://gitlab.itc.unipi.it/d.castellana/TF_bhtmm)).
 - Tensor Tree Recursive Neural Network (TTRNN) - A general framework extending Recursive Neural Networks for tree embedding with more expressive context aggregation functions leveraging tensor decompositions ([code](https://github.com/danielecastellana22/tensor-tree-nn)).
 
 ### Probabilistic models for graphs
-
 - Contextual Graph Markov Model (CGMM) - Probabilistic approach to learning contexts in graphs, combining information diffusion and local computation through the use of a deep architecture and stationarity assumptions ([code](https://github.com/diningphil/CGMM)).  
 
 ### Graph generation models
