@@ -40,7 +40,15 @@ LISTIT methodology is based on a generative approach, mixing both probabilistic 
 
 ## The LISTIT Toolkit library
 
-The tree-to-tree transduction framework at the core of the LISTIT project is available as a PYTORCH library, integrating various probabilistic and neural tree encoders and tree sampling models (decoders). The library is released and maintaned [here](url).
+The tree-to-tree transduction framework at the core of the LISTIT project is available as a PYTORCH library, integrating various probabilistic and neural tree encoders and tree sampling models (decoders) developed within the project. The library is released, documented and maintaned [here](https://github.com/Ant-Bru/Tree2TreeLearning) and implements the following features:
+- Tree encoders:
+-- ChildSum/N-ary: uguali al relativo paper
+-- Gru/BiGru/DoubleGru: analoghi al ChildSum ma effettuano aggregazione degli stati tramite RNN
+-- Tensor decomposition based: quelli di Daniele (ma io ho le versioni aggiornate a Luglio, non mi sono più sincronizzato con il suo repository)
+- DECODER
+- Nary: ogni nodo riceve lo stato dell'encoder e le informazioni dal padre (stato ed etichetta) e calcola il proprio stato e le probabilità, per ogni potenziale figlio, che il figlio esista (per ora ci sono 8 varianti su come le informazioni vengono elaborate)
+- DRNN: ogni nodo riceve lo stato dell'encoder e le informazioni dal padre e del fratello precedente (stato ed etichetta) e calcola il proprio stato e le probabilità che il suo primo figlio ed il suo fratello successivo esistano (WIP a causa del bug della libreria usata come backend)
+- EncDec: ogni nodo riceve lo stato del padre (volendo anche dal fratello precedente) e usa tali informazioni per generare la sequenza dei figli tramite un RNNDecoder (WIP, da testare)
 
 An efficient Tensorflow implementation of the Tree2Tree Conditional Variational Autoencoder (T2TVAE) has also been realized for enhanced computational efficiency, to deal with larger scale learning tasks (including Machine Translation and Image Captioning). The T2TVAE model implementation is released and maintaned [here](https://github.com/m-colombo/conditional-variational-tree-autoencoder). A version of the T2TVAE for image captioning applications is released [here](url), together with [code](url) to generate tree-structured representations of visual content leveraging the PBM segmentation framework.  
 
