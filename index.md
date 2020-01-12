@@ -41,16 +41,12 @@ LISTIT methodology is based on a generative approach, mixing both probabilistic 
 ## The LISTIT Toolkit library
 
 The tree-to-tree transduction framework at the core of the LISTIT project is available as a PYTORCH library, integrating various probabilistic and neural tree encoders and tree sampling models (decoders) developed within the project. The library is released, documented and maintaned [here](https://github.com/Ant-Bru/Tree2TreeLearning) and implements the following features:
-- Tree encoders:
--- ChildSum/N-ary: uguali al relativo paper
--- Gru/BiGru/DoubleGru: analoghi al ChildSum ma effettuano aggregazione degli stati tramite RNN
--- Tensor decomposition based: quelli di Daniele (ma io ho le versioni aggiornate a Luglio, non mi sono più sincronizzato con il suo repository)
-- DECODER
-- Nary: ogni nodo riceve lo stato dell'encoder e le informazioni dal padre (stato ed etichetta) e calcola il proprio stato e le probabilità, per ogni potenziale figlio, che il figlio esista (per ora ci sono 8 varianti su come le informazioni vengono elaborate)
-- DRNN: ogni nodo riceve lo stato dell'encoder e le informazioni dal padre e del fratello precedente (stato ed etichetta) e calcola il proprio stato e le probabilità che il suo primo figlio ed il suo fratello successivo esistano (WIP a causa del bug della libreria usata come backend)
-- EncDec: ogni nodo riceve lo stato del padre (volendo anche dal fratello precedente) e usa tali informazioni per generare la sequenza dei figli tramite un RNNDecoder (WIP, da testare)
+- Neural tree encoders: recursive neural networks with a variety of aggregation functions (described in related papers), including fully stationary (ChildSum) and positional (N-ary) aggregation, and sequential aggregators leveraging Gru, BidirectionalGru and DoubleGru layers
+- Tensor-decomposition encoders: neural and probabilistic models leveraging tensor-decomposition for higher-order childre-to-parent state aggregation
+- Neural decoders: neural-based architectures for tree generation leveraging different decoding strategies, including N-ary decoding, chidren-by-children decoding, sequential children decoding.
+- Tree-to-tree machine translation application
 
-An efficient Tensorflow implementation of the Tree2Tree Conditional Variational Autoencoder (T2TVAE) has also been realized for enhanced computational efficiency, to deal with larger scale learning tasks (including Machine Translation and Image Captioning). The T2TVAE model implementation is released and maintaned [here](https://github.com/m-colombo/conditional-variational-tree-autoencoder). A version of the T2TVAE for image captioning applications is released [here](url), together with [code](url) to generate tree-structured representations of visual content leveraging the PBM segmentation framework.  
+An efficient Tensorflow implementation of the Tree2Tree Conditional Variational Autoencoder (T2TVAE) has also been realized for enhanced computational efficiency, to deal with larger scale learning tasks (including Machine Translation and Image Captioning). The T2TVAE model implementation is released and maintaned [here](https://github.com/m-colombo/conditional-variational-tree-autoencoder). A version of the T2TVAE for image captioning applications is released [here](https://github.com/dave94-42/image_captionig_tree2tree), together with [code](https://github.com/dave94-42/image_captionig_tree2tree_input-target_processing) to generate tree-structured representations of visual content leveraging the PBM segmentation framework.  
 
 ## Project Publications
 All project publications are freely accessible either as open access (when available, on the publisher site) or as pre-print. The list is under continuous update.
@@ -62,13 +58,14 @@ All project publications are freely accessible either as open access (when avail
 - Davide Bacciu; Daniele Castellana, Generalising Recursive Neural Models by Tensor Decomposition, Submitted to conference, 2020
 - Davide Bacciu; Alessio Conte; Roberto Grossi; Francesco Landolfi; Andrea Marino, K-plex Pooling for Graph Neural Networks, Submitted to conference, 2020
 - Federico Errica; Davide Bacciu; Alessio Micheli; Theoretically Expressive and Edge-aware Graph Learning, Submitted to conference, 2020
-7.	Marco Podda; Davide Bacciu; Alessio Micheli; Paolo Milazzo; Biochemical Pathway Robustness Prediction with Graph Neural Networks, Submitted to conference, 2020
+- Marco Podda; Davide Bacciu; Alessio Micheli; Paolo Milazzo; Biochemical Pathway Robustness Prediction with Graph Neural Networks, Submitted to conference, 2020
 
 ### Main project publications
 - Davide Bacciu; Alessio Micheli; Marco Podda, Edge-based sequential graph generation with recurrent neural networks, Neurocomputing, 2020 (In press)
 - Marco Podda; Davide Bacciu; Alessio Micheli; A Deep Generative Model for Fragment-Based Molecule Generation; Proceedings of 23rd International Conference on Artificial Intelligence and Statistics (AISTATS 2020), 2020
 - Federico Errica; Marco Podda; Davide Bacciu; Alessio Micheli, A Fair Comparison of Graph Neural Networks for Graph Classification, Proceedings of the Eighth International Conference on Learning Representations (ICLR 2020), 2020
 - Davide Bacciu; Daniele Castellana, Tensor Decompositions in Recursive Neural Networks for Tree-Structured Data, 28th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning (ESANN 2020), 2020 (to appear)
+- Davide Bacciu; Alessio Micheli; Deep Learning for Graphs, book chapter, Studies in Computational Intelligence Series, Springer, 2020 (to appear)
 - Davide Bacciu; Daniele, Castellana, Bayesian Mixtures of Hidden Tree Markov Models for Structured Data Clustering, Neurocomputing, Vol. 342, 49-59, 2019
 - Davide Bacciu; Luigi Di Sotto, A non-negative factorization approach to node pooling in graph convolutional neural networks, Proceedings of the 18th International Conference of the Italian Association for Artificial Intelligence (AIIA 2019), Lecture Notes in Artificial Intelligence, Vol. 11946, 294-306, Springer-Verlag, 2019
 - Antonio Carta; Davide Bacciu, Sequential Sentence Embeddings for Semantic Similarity, Proceedings of the 2019 IEEE Symposium Series on Computational Intelligence (SSCI'19), 2019 (in Press)
