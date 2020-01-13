@@ -16,11 +16,11 @@ LISTIT has built a range of learning models targeting
 
 LISTIT methodology is based on a generative approach, mixing both probabilistic and neural (deep) learning models. Here follows a summary of models developed and released within the project, together with associated code (when available). Technical details about the different models can be found in the project bibliography in the dedicated section.
 
-### Probabilistic recursive models for trees 
+### Probabilistic models for trees 
 - Input-Output Bottom-up Hidden Tree Markov Model (IO-BHTMM) - A model learning a distribution over tree couples that serves to address isomorphic tree transduction problems, implemented throughout a generative process acting from the leaves to the root of the trees ([code](https://github.com/diningphil/IOBHTMM))
 - Bayesian Mixture of Bottom-up Hidden Tree Markov Models (INF-BHTMM) - A non-parametric generative model extending the IO-BHTMM to deal with a mixture of potentially infinite probabilistic tree encoders ([code](https://gitlab.itc.unipi.it/d.castellana/Mixtures_SP_BHTMM)). 
 
-### Recursive neural models for trees 
+### Neural models for trees 
 -  Neural Tree2Tree (NT2T) - NT2T is a neural implementation of the LIST-IT encoder-decoder architecture for non-isomorph tree transductions. The architecture comes with a choice of different neural encoders and decoders characterized by different parameterizations and different generation dynamics (and overall underlying inductive biases). The single encoder and decoder models are listed in the following. NT2T is released in the [LISTIT Toolkit](https://github.com/Ant-Bru/Tree2TreeLearning).
 - Neural Tree Encoders
    * Child-Sum-TreeLSTM (CS-TreeLSTM) - Baseline recursive bottom-up tree encoder assuming full stationariety. Used to encode trees where the position of nodes (ordering) with respect to their siblings is not relevantfor the task. Distributed within the [LISTIT Toolkit](https://github.com/Ant-Bru/Tree2TreeLearning).
@@ -41,10 +41,13 @@ LISTIT methodology is based on a generative approach, mixing both probabilistic 
 - Contextual Graph Markov Model (CGMM) - Probabilistic approach to learning contexts in graphs, combining information diffusion and local computation through the use of a deep architecture and stationarity assumptions ([code](https://github.com/diningphil/CGMM)).  
 
 ### Graph generation models
+- Grapher - Generative model for generic graph types following a sequential process implemented by two recurrent neural models producing the list of edges making up the structure ([code](https://github.com/marcopodda/grapher)).
+- Fragment-DGM - Generative model specific for molecular graphs, leveraging a fragment based representation of the structure and a neural language model implementing the generative process ([code](https://github.com/marcopodda/fragment-based-dgm)).
 
 ### Other models and contributions
 - Hidden Tree Markov Network (HTN) - A neuro-probabilistic hybrid model for tree structured data processing combining heterogeneous probabilistic tree models within a neural architecture, trained by backpropagation ([code](https://github.com/vdecaro/Hidden-Tree-Markov-Network)). 
 - Fair Graph Classification - A benchmarking suite to support fair assessment of learning models for graphs in classification tasks ([code](https://github.com/diningphil/gnn-comparison)). 
+- Clonal Tree Generator and Analyzer - Library for the generation of clonal trees from mutagenic information. The library includes code to train a learning model for structured data to classify clonal trees into predicted clinical outcomes ([code](https://github.com/marcopodda/clonal)).  
 
 ## Project Contributors and Collaborators
 
