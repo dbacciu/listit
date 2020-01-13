@@ -22,10 +22,14 @@ LISTIT methodology is based on a generative approach, mixing both probabilistic 
 
 ### Recursive neural models for trees 
 -  Tree2Tree Conditional Variational Autoencoder (T2TVAE) - T2TVAE is a Conditional Variational Autoencoder that can learn a generative process realizing non-isomorph tree transductions, by extending the VAE framework to allow conditioning the generative process on tree-structured inputs and to generate tree-structured predictions ([code](https://github.com/m-colombo/conditional-variational-tree-autoencoder)).
+- Child-Sum-TreeLSTM (CS-TreeLSTM) - Baseline recursive bottom-up tree encoder assuming full stationariety. Used to encode trees where the position of nodes (ordering) with respect to their siblings is not relevantfor the task. Distributed within the [LISTIT Toolkit](https://github.com/Ant-Bru/Tree2TreeLearning) 
+- NAry-TreeLSTM (NAry-TreeLSTM) - Baseline recursive bottom-up tree encoder assuming positional stationariety. Allows to discriminate children by their position with respect to the siblings. Distributed within the [LISTIT Toolkit](https://github.com/Ant-Bru/Tree2TreeLearning) 
+- NAry-TreeLSTM (NAry-TreeLSTM) - Baseline recursive bottom-up tree encoder assuming positional stationariety. Allows to discriminate children by their position with respect to the siblings. Distributed within the [LISTIT Toolkit](https://github.com/Ant-Bru/Tree2TreeLearning)
+- Sequential-TreeLSTM (seq-TreeLSTM) - Bottom-up tree encoder leveraging sequential children state aggregators with a choice of GRU, BidirectionalGRU and DoubleGRU models. Distributed within the [LISTIT Toolkit](https://github.com/Ant-Bru/Tree2TreeLearning)
 
 ### Tensor-based models for trees 
 - Bayesian Tensor Factorisation Bottom-up Hidden Tree Markov Models (TF-BHTMM) - An tensor-based extension of the bottom-up hidden Markov model for the encoding of tree-structured data, allowing scalable higher-order state transition functions within a fully Bayesian framework ([code](https://gitlab.itc.unipi.it/d.castellana/TF_bhtmm)).
-- Tensor Tree Recursive Neural Network (TTRNN) - A general framework extending Recursive Neural Networks for tree embedding with more expressive context aggregation functions leveraging tensor decompositions ([code](https://github.com/danielecastellana22/tensor-tree-nn)).
+- Tensor Tree Recursive Neural Network (TTRNN) - A general framework extending Recursive Neural Networks for tree embedding with more expressive context aggregation functions leveraging tensor decompositions. Research code ([here](https://github.com/danielecastellana22/tensor-tree-nn)). Consolidated TTRNN models are also integrated and distributed through the [LISTIT Toolkit](https://github.com/Ant-Bru/Tree2TreeLearning).
 
 ### Probabilistic models for graphs
 - Contextual Graph Markov Model (CGMM) - Probabilistic approach to learning contexts in graphs, combining information diffusion and local computation through the use of a deep architecture and stationarity assumptions ([code](https://github.com/diningphil/CGMM)).  
