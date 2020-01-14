@@ -67,7 +67,6 @@ All project publications are freely accessible either as open access (when avail
 ### Under review and in preparation
 -	Davide Bacciu; Federico Errica; Alessio Micheli, Probabilistic Learning on Graphs via Contextual Architectures, Journal paper under review
 - Davide Bacciu; Federico Errica; Alessio Micheli; Marco Podda; A Gentle Introduction to Deep Learning for Graphs, Journal paper under review (pdf)
-- Andrea Valenti; Antonio Carta; Davide Bacciu; Learning a Latent Space of Style-Aware Music Representations by Adversarial Autoencoders, Submitted to conference, 2020
 - Davide Bacciu; Daniele Castellana, Generalising Recursive Neural Models by Tensor Decomposition, Submitted to conference, 2020
 - Davide Bacciu; Alessio Conte; Roberto Grossi; Francesco Landolfi; Andrea Marino, K-plex Pooling for Graph Neural Networks, Submitted to conference, 2020
 - Federico Errica; Davide Bacciu; Alessio Micheli; Theoretically Expressive and Edge-aware Graph Learning, Submitted to conference, 2020
@@ -77,8 +76,9 @@ All project publications are freely accessible either as open access (when avail
 - Davide Bacciu; Alessio Micheli; Marco Podda, Edge-based sequential graph generation with recurrent neural networks, Neurocomputing, 2020 (In press)
 - Marco Podda; Davide Bacciu; Alessio Micheli; A Deep Generative Model for Fragment-Based Molecule Generation; Proceedings of 23rd International Conference on Artificial Intelligence and Statistics (AISTATS 2020), 2020
 - Federico Errica; Marco Podda; Davide Bacciu; Alessio Micheli, A Fair Comparison of Graph Neural Networks for Graph Classification, Proceedings of the Eighth International Conference on Learning Representations (ICLR 2020), 2020
-- Davide Bacciu; Daniele Castellana, Tensor Decompositions in Recursive Neural Networks for Tree-Structured Data, 28th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning (ESANN 2020), 2020 (to appear)
-- Davide Bacciu; Alessio Micheli; Deep Learning for Graphs, book chapter, Studies in Computational Intelligence Series, Springer, 2020 (to appear)
+- Davide Bacciu; Daniele Castellana, Tensor Decompositions in Recursive Neural Networks for Tree-Structured Data, 28th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning (ESANN 2020), 2020
+- Andrea Valenti; Antonio Carta; Davide Bacciu; Learning a Latent Space of Style-Aware Music Representations by Adversarial Autoencoders, Proceedings of the 24th European Conference on Artificial Intelligence (ECAI 2020), 2020
+- Davide Bacciu; Alessio Micheli; Deep Learning for Graphs, book chapter, Studies in Computational Intelligence Series, Springer, 2020 
 - Davide Bacciu; Daniele, Castellana, Bayesian Mixtures of Hidden Tree Markov Models for Structured Data Clustering, Neurocomputing, Vol. 342, 49-59, 2019
 - Davide Bacciu; Luigi Di Sotto, A non-negative factorization approach to node pooling in graph convolutional neural networks, Proceedings of the 18th International Conference of the Italian Association for Artificial Intelligence (AIIA 2019), Lecture Notes in Artificial Intelligence, Vol. 11946, 294-306, Springer-Verlag, 2019
 - Antonio Carta; Davide Bacciu, Sequential Sentence Embeddings for Semantic Similarity, Proceedings of the 2019 IEEE Symposium Series on Computational Intelligence (SSCI'19), 2019 (in Press)
