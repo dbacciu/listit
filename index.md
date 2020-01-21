@@ -50,6 +50,19 @@ LISTIT methodology is based on a generative approach, mixing both probabilistic 
 - Clonal Tree Generator and Analyzer - Library for the generation of clonal trees from mutagenic information. The library includes code to train a learning model for structured data to classify clonal trees into predicted clinical outcomes ([code](https://github.com/marcopodda/clonal)).  
 
 ## Project Contributors and Collaborators
+-	[Davide Bacciu](http://pages.di.unipi.it/bacciu), Senior Assistant Professor, Coordinator
+-	Antonio Bruno, Research Associate, Collaborator
+-	Antonio Carta, Ph.D. Student, Collaborator
+-	Daniele Castellana, Ph.D. Student, Collaborator
+- Francesco Crecchi, Ph.D. Student, Contributor
+-	Michele Colombo, M.Sc. Student, Contributor
+-	Valerio De Caro, M.Sc. Student, Contributor
+- Federico Errica, Ph.D. Student, Contributor
+-	Francesco Landolfi, Ph.D. Student, Contributor
+-	Marco Podda, Ph.D. Student, Contributor
+-	Vlad Alexandru Pandelea, Research Assistant, Contributor
+-	Davide Serramazza, M.Sc. Student, Contributor
+-	Andrea Valenti, Ph.D. Student, Contributor
 
 ## The LISTIT Toolkit library
 
