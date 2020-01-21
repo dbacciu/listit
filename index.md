@@ -66,14 +66,14 @@ All project publications are freely accessible either as open access (when avail
 
 ### Under review and in preparation
 -	Davide Bacciu; Federico Errica; Alessio Micheli, Probabilistic Learning on Graphs via Contextual Architectures, Journal paper under review
-- Davide Bacciu; Federico Errica; Alessio Micheli; Marco Podda; A Gentle Introduction to Deep Learning for Graphs, Journal paper under review [Arxiv](https://arxiv.org/abs/1912.12693)
+- Davide Bacciu; Federico Errica; Alessio Micheli; Marco Podda; A Gentle Introduction to Deep Learning for Graphs, Journal paper under review - [Arxiv](https://arxiv.org/abs/1912.12693)
 - Davide Bacciu; Daniele Castellana, Generalising Recursive Neural Models by Tensor Decomposition, Submitted to conference, 2020
 - Davide Bacciu; Alessio Conte; Roberto Grossi; Francesco Landolfi; Andrea Marino, K-plex Pooling for Graph Neural Networks, Submitted to conference, 2020
 - Federico Errica; Davide Bacciu; Alessio Micheli; Theoretically Expressive and Edge-aware Graph Learning, Submitted to conference, 2020
 - Marco Podda; Davide Bacciu; Alessio Micheli; Paolo Milazzo; Biochemical Pathway Robustness Prediction with Graph Neural Networks, Submitted to conference, 2020
 
 ### Main project publications
-- Davide Bacciu; Alessio Micheli; Marco Podda, Edge-based sequential graph generation with recurrent neural networks, Neurocomputing, 2020 (In press)
+- Davide Bacciu; Alessio Micheli; Marco Podda, Edge-based sequential graph generation with recurrent neural networks, Neurocomputing, 2020 (In press) - [PDF](https://github.com/dbacciu/listit/blob/master/pubs/graph_gen_neucomp_2020.pdf)
 - Marco Podda; Davide Bacciu; Alessio Micheli; A Deep Generative Model for Fragment-Based Molecule Generation; Proceedings of 23rd International Conference on Artificial Intelligence and Statistics (AISTATS 2020), 2020
 - Federico Errica; Marco Podda; Davide Bacciu; Alessio Micheli, A Fair Comparison of Graph Neural Networks for Graph Classification, Proceedings of the Eighth International Conference on Learning Representations (ICLR 2020), 2020 [Arxiv](https://arxiv.org/abs/1912.09893)
 - Davide Bacciu; Daniele Castellana, Tensor Decompositions in Recursive Neural Networks for Tree-Structured Data, 28th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning (ESANN 2020), 2020
